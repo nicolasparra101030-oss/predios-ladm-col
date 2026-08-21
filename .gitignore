@@ -1,0 +1,17 @@
+# --- ArcGIS / File Geodatabase locks (sesión local, no son datos) ---
+*.lock
+*.sr.lock
+*.rd.lock
+
+# --- Configuración local de Claude Code (no forma parte del entregable) ---
+.claude/
+GOJSON/settings.local.json
+
+# --- Basura habitual de SO ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Python ---
+__pycache__/
+*.pyc
